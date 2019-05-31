@@ -68,7 +68,7 @@ p {
 
 header {
     width: 800px;
-    margin: 30px auto;
+    margin: 30px auto 0px auto;
 }
 header nav {
     display: flex;
@@ -82,7 +82,7 @@ header nav a {
 }
 
 header div {
-    margin: 30px auto;
+    margin: 30px auto 0px auto;
 }
 
 .container {
@@ -95,6 +95,7 @@ header div {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-top: 20px;
     border-bottom: 1px dashed black;
 }
 
@@ -203,3 +204,40 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border-top: 1px dashed black;
+    padding-top: 10px;
+}
+
+main section {
+    width: 370px;
+    padding: 15px 0px 15px 0px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+}
+
+main section img {
+    margin-bottom: 10px;
+}
+
+
+.top-bottom {
+    padding: 20px 10px 20px 10px;
+}
+
+.footer-about{
+    margin-top: 20px;
+}
+
+button {
+    font-size: 14px;
+    padding: 8px 20px;
+    border:2px solid black;
+    border-radius: 7px;
+    margin-top: 15px;
+}
+
